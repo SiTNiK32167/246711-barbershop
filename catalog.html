@@ -7,27 +7,139 @@
   <body>
     <header class="main_header">
       <div class="navigation">
-        <span>
+        <nav>
           <ul>
             <li>
-              <a href="#">ИНФОРМАЦИЯ</a>
+              <a href="#"></a>
+                <img src="img/logo.png" width="120" height="20" alt="Главное меню" />
             </li>
             <li>
-              <a href="#">НОВОСТИ</a>
+              <a href="#">информация</a>
             </li>
             <li>
-              <a href="#">ПРАЙС-ЛИСТ</a>
+              <a href="#">новости</a>
             </li>
             <li>
-              <a href="#">МАГАЗИН</a>
+              <a href="#">прайс-лист</a>
             </li>
             <li>
-              <a href="#">КОНТАКТЫ</a>
+              <a href="#">магазин</a>
+            </li>
+            <li>
+              <a href="#">контакты</a>
             </li>
           </ul>
-          <a href="#">ВХОД</a>
-        </span>
+          <a href="#">вход</a>
+        </nav>
       </div>
     </header>
+    <div class="breadcrumbs">
+      <h1>средства для ухода</h1>
+      <menu>
+        <li>
+          <a href="#">главная</a>
+        </li>
+        <li>
+          <a href="#">магазин</a>
+        </li>
+        <li>
+          <a href="#">средства для ухода</a>
+        </li>
+      </menu>
+    </div>
+    <section class="search">
+      <div class="brand">
+        <form action="index.htm" method="post">
+          <h2>производители:</h2>
+          <input type="checkbox" name="brand 1" id="brand 1-field">
+          <label for="brand 1-field">baxter of california</label><br>
+          <input type="checkbox" name="brand 2" id="brand 2-field">
+          <label for="brand 2-field">mr natty</label><br>
+          <input type="checkbox" name="brand 3" id="brand 3-field">
+          <label for="brand 3-field">suavecito</label><br>
+          <input type="checkbox" name="brand 4" id="brand 4-field">
+          <label for="brand 4-field">malin+goetz</label><br>
+          <input type="checkbox" name="brand 5" id="brand 5-field">
+          <label for="brand 5-field">murray's</label><br>
+          <input type="checkbox" name="brand 6" id="brand 6-field">
+          <label for="brand 6-field">american crew</label>
+        </form>
+      </div>
+      <div class="group_brand">
+        <form action="index.html" method="post">
+          <h2>группы товаров:</h2>
+          <label>
+            <input type="radio" name="group" value="бритвенные принадлежности"> бритвенные принадлежности <br>
+          </label>
+          <label>
+            <input type="radio" name="group" value="средства для ухода"> средства для ухода <br>
+          </label>
+          <label>
+            <input type="radio" name="group" value="аксессуары"> аксессуары
+          </label>
+        </form>
+      </div>
+      <a class="btn" href="#">показать</a>
+    </section>
+    <section class="goods">
+      <article class="goods-item">
+        <img src="img/goods1.png" alt="Набор для путешествий"/ width="200" height="200">
+        <p>Набор для путешествий<br>
+          <q>baxter of california</q>
+        </p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article class="goods-item">
+        <img src="img/goods2.png" alt="Увлажняющий кондиционер"/ width="200" height="200">
+        <p>Увлажняющий кондиционер<br>
+          <q>baxter of california</q>
+        </p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article class="goods-item">
+        <img src="img/goods3.png" alt="Гель для волос"/ width="200" height="200">
+        <p>Гель для волос<br>
+          <q>suavecito</q>
+        </p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article class="goods-item">
+        <img src="img/goods4.png" alt="Глина для укладки волос"/ width="200" height="200">
+        <p>Глина для укладки волос<br>
+          <q>american crew</q>
+        </p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article class="goods-item">
+        <img src="img/goods5.png" alt="Гель для волос"/ width="200" height="200">
+        <p>Гель для волос<br>
+          <q>american crew</q>
+        </p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article class="goods-item">
+        <img src="img/goods6.png" alt="Набор для бритья"/ width="200" height="200">
+        <p>Набор для бритья<br>
+          <q>baxter of california</q>
+        </p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <div class="pagination">
+        <ul>
+          <li>
+            <a href="#" class="btn">1</a>
+          </li>
+          <li>
+            <a href="#" class="btn">2</a>
+          </li>
+          <li>
+            <a href="#" class="btn">3</a>
+          </li>
+          <li>
+            <a href="#" class="btn">4</a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </body>
 </html>
